@@ -1,0 +1,24 @@
+<p>El registro fue almacenado con exito!</p>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Detail</th>
+      <th scope="col">Category</th>
+      <th scope="col">Value</th>
+      <th scope="col">Discount</th>
+      <th scope="col">Tax</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td><%= @sales.detail%></td>
+        <td><%= @sales.category%></td>
+        <td><%= @sales.value%></td>
+        <td><%= @sales.discount%></td>
+        <td><%= @sales.tax%></td>
+        <td><%= @sales.total%></td>
+    </tr>
+  </tbody>
+</table>
